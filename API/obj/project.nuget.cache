@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JXhbCpiU5g2NzZBqE8F9eu2C0J0X2oYjYShVpSVeLAkfUgSK+v05jOEu17vOGcDWchIcK+Qx73wQIzRCrjUveA==",
+  "dgSpecHash": "EJgG/BPniSaR8c+A7u/Cs/1SWXPw1T2aWMjgowx2BJqqxla94uz5lQA06n7tfshsjBXEsXIzXbcfGCUHKoyEzg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tagui\\Desktop\\projects\\aspNetCoreAngular\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\Tagui\\Desktop\\aspNetCoreAngular\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tagui\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Tagui\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0-preview.5.22302.2\\microsoft.data.sqlite.core.7.0.0-preview.5.22302.2.nupkg.sha512",

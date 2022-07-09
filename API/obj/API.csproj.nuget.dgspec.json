@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tagui\\Desktop\\projects\\aspNetCoreAngular\\API\\API.csproj": {}
+    "C:\\Users\\Tagui\\Desktop\\aspNetCoreAngular\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tagui\\Desktop\\projects\\aspNetCoreAngular\\API\\API.csproj": {
+    "C:\\Users\\Tagui\\Desktop\\aspNetCoreAngular\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tagui\\Desktop\\projects\\aspNetCoreAngular\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Tagui\\Desktop\\aspNetCoreAngular\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Tagui\\Desktop\\projects\\aspNetCoreAngular\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Tagui\\Desktop\\aspNetCoreAngular\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Tagui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tagui\\Desktop\\projects\\aspNetCoreAngular\\API\\obj\\",
+        "outputPath": "C:\\Users\\Tagui\\Desktop\\aspNetCoreAngular\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tagui\\AppData\\Roaming\\NuGet\\NuGet.Config",
