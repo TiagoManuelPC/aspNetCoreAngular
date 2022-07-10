@@ -455,3 +455,9 @@ $RECYCLE.BIN/
 
 appsettings.json
 appsettings.Development.json
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
