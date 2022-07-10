@@ -17,11 +17,12 @@ export class AppComponent implements OnInit {
 		this.getUsers();
 	}
 
-  getUsers() {
-    this.http.get('https://localhost:5001/api/users').subscribe(res => {
+	getUsers() {
+		this.http.get('https://localhost:5001/api/users').subscribe(res => {
 			this.users = res;
+			console.log(res)
 		}, error => {
 			console.log(error);
 		});
-  }
+	}
 }
