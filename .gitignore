@@ -461,3 +461,4 @@ _ReSharper.*
 bin
 obj
 packages
+dotnetangular.db
