@@ -1,14 +1,33 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { User } from '../_models/user';
+import { AccountService } from '../_services/account.service';
 
 @Component({
-  selector: 'app-nav',
-  templateUrl: './nav.component.html',
-  styleUrls: ['./nav.component.scss']
+    selector: 'app-nav',
+    templateUrl: './nav.component.html',
+    styleUrls: ['./nav.component.scss']
 })
 export class NavComponent implements OnInit {
 
-  constructor() { }
+    model: any = {};
 
-  ngOnInit(): void {
-  }
+    constructor(public accountService: AccountService) { }
+
+    ngOnInit(): void {
+    }
+
+    login() {
+        this.accountService.login(this.model).subscribe({
+            next: (v) => {
+                console.log(v)
+            },
+            error: (e) => console.error(e),
+            complete: () => console.info('complete')
+        })
+    }
+
+    logout() {
+        this.accountService.logout();
+    }
 }
