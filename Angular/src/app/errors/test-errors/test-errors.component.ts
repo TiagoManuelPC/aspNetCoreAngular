@@ -34,7 +34,7 @@ export class TestErrorsComponent implements OnInit {
                 console.log(res)
             },
             error: (e) => {
-                console.error(e)
+                console.log(e)
             },
             complete: () => console.log('completed')
         })
@@ -43,11 +43,10 @@ export class TestErrorsComponent implements OnInit {
     get500Error(){
         this.http.get(this.baseUrl + 'buggy/server-error').subscribe({
             next: (res) => {
-                console.log("iworked")
                 console.log(res)
             },
             error: (e) => {
-                console.error(e)
+                console.log(e)
             },
             complete: () => console.log('completed')
         })
@@ -59,7 +58,7 @@ export class TestErrorsComponent implements OnInit {
                 console.log(res)
             },
             error: (e) => {
-                console.error(e)
+                console.log(e)
             },
             complete: () => console.log('completed')
         })
@@ -71,7 +70,7 @@ export class TestErrorsComponent implements OnInit {
                 console.log(res)
             },
             error: (e) => {
-                console.error(e)
+                console.log(e)
                 this.validationErrors = e;
             },
             complete: () => console.log('completed')
