@@ -1,7 +1,4 @@
-﻿using API.Entities;
-using Microsoft.EntityFrameworkCore;
-
-namespace API.Data
+﻿namespace API.Data
 {
     public class DataContext : DbContext
     {
