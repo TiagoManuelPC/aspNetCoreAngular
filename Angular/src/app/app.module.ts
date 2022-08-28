@@ -42,7 +42,7 @@ import { TextInputComponent } from './_forms/text-input/text-input.component';
         MemberCardComponent,
         MemberEditComponent,
         PhotoEditorComponent,
-        TextInputComponent
+        TextInputComponent,
     ],
     imports: [
         BrowserModule,
@@ -52,7 +52,7 @@ import { TextInputComponent } from './_forms/text-input/text-input.component';
         FormsModule,
         ReactiveFormsModule,
         SharedModule,
-        NgxSpinnerModule
+        NgxSpinnerModule,
     ],
     providers: [
         {provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true},
